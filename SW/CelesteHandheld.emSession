@@ -1,0 +1,47 @@
+<!DOCTYPE CrossStudio_Session_File>
+<session>
+ <Bookmarks/>
+ <Breakpoints groups="Breakpoints" active_group="Breakpoints"/>
+ <ExecutionProfileWindow/>
+ <FrameBuffer/>
+ <Memory1/>
+ <Memory2/>
+ <Memory3/>
+ <Memory4/>
+ <Project>
+  <ProjectSessionItem path="CelesteHandheld"/>
+  <ProjectSessionItem path="CelesteHandheld;CelesteHandheld"/>
+  <ProjectSessionItem path="CelesteHandheld;CelesteHandheld;CMSIS Files"/>
+  <ProjectSessionItem path="CelesteHandheld;CelesteHandheld;Source Files"/>
+  <ProjectSessionItem path="CelesteHandheld;CelesteHandheld;System Files"/>
+ </Project>
+ <Register1/>
+ <Register2/>
+ <Register3/>
+ <Register4/>
+ <Threads>
+  <ThreadsWindow showLists=""/>
+ </Threads>
+ <TraceWindow>
+  <Trace enabled="Yes"/>
+ </TraceWindow>
+ <Watch1>
+  <Watches active="1" update="Never"/>
+ </Watch1>
+ <Watch2>
+  <Watches active="0" update="Never"/>
+ </Watch2>
+ <Watch3>
+  <Watches active="0" update="Never"/>
+ </Watch3>
+ <Watch4>
+  <Watches active="0" update="Never"/>
+ </Watch4>
+ <Files>
+  <SessionOpenFile windowGroup="DockEditLeft" x="6" y="28" useTextEdit="1" path="main.c" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="28" y="47" useTextEdit="1" path="SAMD21/Device/Include/SEGGER_SAMD21.h" left="0" top="24" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="20" y="33" useTextEdit="1" openedFrom="C:/Users/keval/OneDrive/Desktop/CelesteHandheld/SW/SAMD21/Device/Include/SEGGER_SAMD21.h" path="SAMD21/Device/Include/samd21a/include/sam.h" left="0" top="27" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="26" y="247" useTextEdit="1" openedFrom="C:/Users/keval/OneDrive/Desktop/CelesteHandheld/SW/SAMD21/Device/Include/samd21a/include/sam.h" path="SAMD21/Device/Include/samd21a/include/samd21e17a.h" left="0" selected="1" top="227" codecName="Default"/>
+ </Files>
+ <EMStudioWindow activeProject="CelesteHandheld" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Debug" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="" debugSearchPath="" autoConnectCapabilities="3199"/>
+</session>
