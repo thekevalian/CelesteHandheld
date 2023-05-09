@@ -1,0 +1,3 @@
+[submodule "Datasheets and Libraries/ST7735/Adafruit-Eagle-Library"]
+	path = Datasheets and Libraries/ST7735/Adafruit-Eagle-Library
+	url = https://github.com/adafruit/Adafruit-Eagle-Library

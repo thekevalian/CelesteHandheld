@@ -10698,33 +10698,33 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <plain>
 </plain>
 <instances>
-<instance part="IC1" gate="G$1" x="63.5" y="-45.72" smashed="yes">
-<attribute name="NAME" x="95.25" y="-25.4" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="95.25" y="-27.94" size="1.778" layer="96" align="center-left"/>
+<instance part="IC1" gate="G$1" x="7.62" y="-73.66" smashed="yes">
+<attribute name="NAME" x="39.37" y="-53.34" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="39.37" y="-55.88" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="J1" gate="G$1" x="139.7" y="-50.8" smashed="yes">
-<attribute name="NAME" x="156.21" y="-43.18" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="156.21" y="-45.72" size="1.778" layer="96" align="center-left"/>
+<instance part="J1" gate="G$1" x="190.5" y="-48.26" smashed="yes">
+<attribute name="NAME" x="207.01" y="-40.64" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="207.01" y="-43.18" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="IC2" gate="G$1" x="152.4" y="-78.74" smashed="yes">
-<attribute name="NAME" x="176.53" y="-71.12" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="176.53" y="-73.66" size="1.778" layer="96" align="center-left"/>
+<instance part="IC2" gate="G$1" x="203.2" y="-76.2" smashed="yes">
+<attribute name="NAME" x="227.33" y="-68.58" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="227.33" y="-71.12" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="IC3" gate="G$1" x="116.84" y="-106.68" smashed="yes">
-<attribute name="NAME" x="148.59" y="-99.06" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="148.59" y="-101.6" size="1.778" layer="96" align="center-left"/>
+<instance part="IC3" gate="G$1" x="167.64" y="-104.14" smashed="yes">
+<attribute name="NAME" x="199.39" y="-96.52" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="199.39" y="-99.06" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="C1" gate="G$1" x="111.76" y="-78.74" smashed="yes">
-<attribute name="NAME" x="112.776" y="-78.105" size="1.778" layer="95"/>
-<attribute name="VALUE" x="112.776" y="-82.931" size="1.778" layer="96"/>
+<instance part="C1" gate="G$1" x="162.56" y="-76.2" smashed="yes">
+<attribute name="NAME" x="163.576" y="-75.565" size="1.778" layer="95"/>
+<attribute name="VALUE" x="163.576" y="-80.391" size="1.778" layer="96"/>
 </instance>
-<instance part="L1" gate="G$1" x="116.84" y="-50.8" smashed="yes">
-<attribute name="NAME" x="115.57" y="-55.88" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="120.65" y="-55.88" size="1.778" layer="96" rot="R90"/>
+<instance part="L1" gate="G$1" x="167.64" y="-48.26" smashed="yes">
+<attribute name="NAME" x="166.37" y="-53.34" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="171.45" y="-53.34" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R1" gate="G$1" x="124.46" y="-71.12" smashed="yes">
-<attribute name="NAME" x="120.65" y="-69.6214" size="1.778" layer="95"/>
-<attribute name="VALUE" x="120.65" y="-74.422" size="1.778" layer="96"/>
+<instance part="R1" gate="G$1" x="175.26" y="-68.58" smashed="yes">
+<attribute name="NAME" x="171.45" y="-67.0814" size="1.778" layer="95"/>
+<attribute name="VALUE" x="171.45" y="-71.882" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
