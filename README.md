@@ -8,7 +8,9 @@ need for a physical DAC.
 We used the [Segger Embedded Studio IDE](https://www.segger.com/products/development-tools/embedded-studio/) for our development. To get started, download the IDE and download the SAMD21 package from the package manager.\
 If you are new to this environment, follow these step-by-step instructions:
 1. Tools->Package Manager-> and search `SAMD21 CPU Support` and download the package
-2. Clone the repository [here](https://github.com/thekevalian/CelesteHandheld/tree/master/Datasheets%20and%20Libraries)
+2. Clone the repository [here](https://github.com/thekevalian/CelesteHandheld).  If you're unfamiliar with git, try entering the directory that you\
+want this project to be in using the  `cd` command in powershell. Then type\
+ ``git clone https://github.com/thekevalian/CelesteHandheld --recurse-submodules``
 3. Open the project in the `SW` folder
 
 In the `SW` folder you will find all the software, other than that provided by the SAMD21 CPU Support. In the `Datasheets and Libraries` folder, you will find 3D models and footprints of the components used (provided by MOUSER). You will also find the CAD files associated with the shell of the handheld and a Bill of Materials.
