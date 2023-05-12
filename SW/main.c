@@ -12,7 +12,8 @@ Purpose : Generic application start
 
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <SEGGER_SAMD21.h>
+#define PORTA 0
 /*********************************************************************
 *
 *       main()
@@ -21,8 +22,8 @@ Purpose : Generic application start
 *   Application entry point.
 */
 int main(void) {
+  SystemInit();
   int i;
-
   for (i = 0; i < 100; i++) {
     printf("Hello World %d!\n", i);
   }

@@ -10675,6 +10675,84 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="ST7735wosd">
+<packages>
+<package name="ST7735S_NOSD">
+<wire x1="0" y1="0" x2="5.09" y2="0" width="0.1524" layer="21"/>
+<wire x1="5.09" y1="0" x2="50.92" y2="0" width="0.1524" layer="21"/>
+<wire x1="50.92" y1="0" x2="56" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="35" width="0.1524" layer="21"/>
+<wire x1="0" y1="35" x2="5.09" y2="35" width="0.1524" layer="21"/>
+<wire x1="5.09" y1="35" x2="50.92" y2="35" width="0.1524" layer="21"/>
+<wire x1="50.92" y1="35" x2="56" y2="35" width="0.1524" layer="21"/>
+<wire x1="56" y1="35" x2="56" y2="0" width="0.1524" layer="21"/>
+<pad name="1" x="1.5" y="8.61" drill="0.9"/>
+<pad name="2" x="1.5" y="11.15" drill="0.9"/>
+<pad name="3" x="1.5" y="13.69" drill="0.9"/>
+<pad name="4" x="1.5" y="16.23" drill="0.9"/>
+<pad name="5" x="1.5" y="18.77" drill="0.9"/>
+<pad name="6" x="1.5" y="21.31" drill="0.9"/>
+<pad name="7" x="1.5" y="23.85" drill="0.9"/>
+<pad name="8" x="1.5" y="26.39" drill="0.9"/>
+<wire x1="5.09" y1="35" x2="5.09" y2="0" width="0.1524" layer="21"/>
+<wire x1="50.92" y1="35" x2="50.92" y2="0" width="0.1524" layer="21"/>
+<hole x="2.5" y="2.5" drill="2"/>
+<hole x="2.5" y="32.5" drill="2"/>
+<hole x="53.5" y="32.5" drill="2"/>
+<hole x="53.5" y="2.5" drill="2"/>
+<wire x1="9" y1="3" x2="9" y2="31.03" width="0.1524" layer="21"/>
+<wire x1="9" y1="31.03" x2="44.04" y2="31.03" width="0.1524" layer="21"/>
+<wire x1="44.04" y1="31.03" x2="44.04" y2="3" width="0.1524" layer="21"/>
+<wire x1="44.04" y1="3" x2="9" y2="3" width="0.1524" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="ST7735S">
+<pin name="SDA" x="-25.4" y="-2.54" length="middle"/>
+<pin name="RES" x="-25.4" y="0" length="middle"/>
+<pin name="DC" x="-25.4" y="2.54" length="middle"/>
+<pin name="SCL" x="-25.4" y="-5.08" length="middle"/>
+<pin name="CS" x="-25.4" y="5.08" length="middle"/>
+<pin name="VCC" x="-25.4" y="-7.62" length="middle"/>
+<pin name="BLK" x="-25.4" y="7.62" length="middle"/>
+<pin name="GND" x="-25.4" y="-10.16" length="middle"/>
+<wire x1="-20.32" y1="10.16" x2="-20.32" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="-12.7" x2="12.7" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-12.7" x2="12.7" y2="10.16" width="0.254" layer="94"/>
+<wire x1="12.7" y1="10.16" x2="-20.32" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<text x="-17.78" y="12.7" size="1.778" layer="94">&gt;NAME</text>
+<text x="-2.54" y="12.7" size="1.778" layer="94">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ST7735STEMU">
+<gates>
+<gate name="G$1" symbol="ST7735S" x="-20.32" y="-5.08"/>
+</gates>
+<devices>
+<device name="" package="ST7735S_NOSD">
+<connects>
+<connect gate="G$1" pin="BLK" pad="8"/>
+<connect gate="G$1" pin="CS" pad="7"/>
+<connect gate="G$1" pin="DC" pad="6"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="RES" pad="5"/>
+<connect gate="G$1" pin="SCL" pad="3"/>
+<connect gate="G$1" pin="SDA" pad="4"/>
+<connect gate="G$1" pin="VCC" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -10692,6 +10770,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="050-024X044" package3d_urn="urn:adsk.eagle:package:23643/1"/>
 <part name="L1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="L-US" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2"/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2"/>
+<part name="U$1" library="ST7735wosd" deviceset="ST7735STEMU" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10725,6 +10804,10 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="R1" gate="G$1" x="175.26" y="-68.58" smashed="yes">
 <attribute name="NAME" x="171.45" y="-67.0814" size="1.778" layer="95"/>
 <attribute name="VALUE" x="171.45" y="-71.882" size="1.778" layer="96"/>
+</instance>
+<instance part="U$1" gate="G$1" x="116.84" y="-116.84" smashed="yes">
+<attribute name="NAME" x="99.06" y="-104.14" size="1.778" layer="94"/>
+<attribute name="VALUE" x="114.3" y="-104.14" size="1.778" layer="94"/>
 </instance>
 </instances>
 <busses>
