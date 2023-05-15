@@ -11,7 +11,8 @@
  <Project>
   <ProjectSessionItem path="CelesteHandheld"/>
   <ProjectSessionItem path="CelesteHandheld;CelesteHandheld"/>
-  <ProjectSessionItem path="CelesteHandheld;CelesteHandheld;Source Files"/>
+  <ProjectSessionItem path="CelesteHandheld;CelesteHandheldForDevBoard"/>
+  <ProjectSessionItem path="CelesteHandheld;CelesteHandheldForDevBoard;Source Files"/>
  </Project>
  <Register1/>
  <Register2/>
@@ -36,8 +37,8 @@
   <Watches active="0" update="Never"/>
  </Watch4>
  <Files>
-  <SessionOpenFile windowGroup="DockEditLeft" x="14" y="26" useTextEdit="1" path="main.c" left="0" top="10" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="45" y="405" useTextEdit="1" openedFrom="C:/Users/keval/OneDrive/Desktop/CelesteHandheld/SW/main.c" path="SAMD21/Device/Include/samd21a/include/component/pm.h" left="0" selected="1" top="389" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="16" y="7" useTextEdit="1" path="main.c" left="0" selected="1" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="12" y="390" useTextEdit="1" openedFrom="C:/Users/keval/OneDrive/Desktop/CelesteHandheld/SW/main.c" path="SAMD21/Device/Include/samd21a/include/component/pm.h" left="0" top="381" codecName="Default"/>
  </Files>
- <EMStudioWindow activeProject="CelesteHandheld" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Debug" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="" debugSearchPath="" autoConnectCapabilities="3199"/>
+ <EMStudioWindow activeProject="CelesteHandheldForDevBoard" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Debug" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="" debugSearchPath="" autoConnectCapabilities="3199"/>
 </session>

@@ -72,4 +72,65 @@
       </file>
     </folder>
   </project>
+  <project Name="CelesteHandheldForDevBoard">
+    <configuration
+      LIBRARY_IO_TYPE="RTT"
+      Name="Common"
+      Target="ATSAMD21G17D"
+      arm_architecture="v6M"
+      arm_compiler_variant="SEGGER"
+      arm_core_type="Cortex-M0+"
+      arm_endian="Little"
+      arm_fp_abi="Soft"
+      arm_fpu_type="None"
+      arm_linker_heap_size="1024"
+      arm_linker_process_stack_size="0"
+      arm_linker_stack_size="2048"
+      arm_linker_variant="SEGGER"
+      arm_rtl_variant="SEGGER"
+      arm_simulator_memory_simulation_parameter="ROM;0x00000000;0x20000;ROM;0x00400000;0x1000;RAM;0x20000000;0x4000"
+      arm_target_debug_interface_type="ADIv5"
+      arm_target_device_name="ATSAMD21G17D"
+      arm_target_interface_type="SWD"
+      c_preprocessor_definitions="USE_CMSIS_INIT;ARM_MATH_CM0PLUS;__SAMD21G17D__;__SAMD21_FAMILY;__NO_FPU_ENABLE"
+      c_user_include_directories="$(ProjectDir)/CMSIS_5/CMSIS/Core/Include;$(ProjectDir)/SAMD21/Device/Include;$(ProjectDir)/SAMD21/Device/Include/samd21d/include"
+      debug_register_definition_file="$(ProjectDir)/ATSAMD21G17D_Registers.xml"
+      debug_stack_pointer_start="__stack_end__"
+      debug_start_from_entry_point_symbol="Yes"
+      debug_target_connection="J-Link"
+      gcc_entry_point="Reset_Handler"
+      link_linker_script_file="$(ProjectDir)/SAMD21_Flash_Variant1.icf"
+      linker_memory_map_file="$(ProjectDir)/ATSAMD21G17D_MemoryMap.xml"
+      macros="DeviceHeaderFile=$(PackagesDir)/SAMD21/Device/Include/SEGGER_SAMD21.h;DeviceSystemFile=$(PackagesDir)/SAMD21/Device/Source/samd21d/armcc/system_samd21g17d.c;DeviceVectorsFile=$(PackagesDir)/SAMD21/Source/samd21g17d_Vectors.s;DeviceFamily=SAMD21;Target=ATSAMD21G17D"
+      project_directory=""
+      project_type="Executable"
+      target_reset_script="Reset();"
+      target_trace_initialize_script="EnableTrace(&quot;$(TraceInterfaceType)&quot;)" />
+    <configuration Name="Debug" linker_output_format="hex" />
+    <folder Name="CMSIS Files">
+      <file file_name="SAMD21/Device/Include/SEGGER_SAMD21.h" />
+      <file file_name="SAMD21/Device/Source/samd21d/armcc/system_samd21g17d.c">
+        <configuration
+          Name="Common"
+          default_code_section=".init"
+          default_const_section=".init_rodata" />
+      </file>
+    </folder>
+    <folder Name="Script Files">
+      <file file_name="SAMD21/Scripts/SAMD21_Target.js">
+        <configuration Name="Common" file_type="Reset Script" />
+      </file>
+    </folder>
+    <folder Name="Source Files">
+      <configuration Name="Common" filter="c;cpp;cxx;cc;h;s;asm;inc" />
+      <file file_name="main.c" />
+    </folder>
+    <folder Name="System Files">
+      <file file_name="SAMD21/Source/SAMD21_Startup.s" />
+      <file file_name="$(StudioDir)/samples/SEGGER_THUMB_Startup.s" />
+      <file file_name="SAMD21/Source/samd21g17d_Vectors.s">
+        <configuration Name="Common" file_type="Assembly" />
+      </file>
+    </folder>
+  </project>
 </solution>
